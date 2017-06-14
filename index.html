@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Dragons of Mugloar</title>
+		
+		<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+		<script src="js/game.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+	</head>
+	<body>
+		<div>
+			<input type="number" id="counter"></input>
+			<button type="submit" onclick="repeat()">Submit</button>
+			<p>Game ID: <span class="gameId"></span></p>
+			<table>
+				<tr>
+					<th>Knight's Name</th>
+					<th>Knight's Attack</th>
+					<th>Knight's Armor</th>
+					<th>Knight's Agility</th>
+					<th>Knight's Endurance</th>
+					
+				</tr>
+				<tr>
+					<td class="knightName">-</td>
+					<td class="knightAttack">-</td>
+					<td class="knightArmor">-</td>
+					<td class="knightAgility">-</td>
+					<td class="knightEndurance">-</td>
+				</tr>
+				<tr>
+					<th>Weather code</th>
+					<th>Dragon's Scale Thickness</th>
+					<th>Dragon's Claw Sharpness</th>
+					<th>Dragon's Wing Strength</th>
+					<th>Dragon's Firebreath</th>
+				</tr>
+				<tr>
+					<td class="weatherCode">-</td>
+					<td class="scaleThickness">-</td>
+					<td class="clawSharpness">-</td>
+					<td class="wingStrength">-</td>
+					<td class="firebreath">-</td>
+				</tr>
+			</table>
+			<p>Status: <span class="status"></span> 
+			<p>Message: <span class="message"></span></p>
+			<p>Victories: <span class="victories"></span></p>
+			<p>Defeats: <span class="defeats"></span></p>
+			<p>Winrate: <span class="winrate"></span>%</p>
+		</div>
+	</body>
+</html>
